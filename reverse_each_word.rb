@@ -4,5 +4,5 @@ def reverse_each_word (sentence)
   final_sentence = sentence_a.collect do |word|
     "#{word.reverse}"
   end
-  final_sentence
+  return final_sentence
 end
